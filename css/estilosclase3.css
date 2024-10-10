@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+
+}
+
+.caja2{
+    margin-left: 10px;
+    background-color: brown;
+
+
+}
+
+@media (max-width: 600px){
+    .box{
+        flex-direction: column;
+    }
+}
+
