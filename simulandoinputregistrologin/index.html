@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csscajaregistroylogin.css">
+    <title>Registro y Login</title>
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <div class="input-group">
+                <input type="text" id="firstName" placeholder="Primer Nombre" required>
+                <input type="text" id="secondName" placeholder="Segundo Nombre" required>
+            </div>
+            <input type="email" id="email" placeholder="Correo Electrónico" required>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <input type="password" id="confirmPassword" placeholder="Repetir Contraseña" required>
+            </div>
+            <button type="submit">Registrar</button>
+            <button type="button" id="googleRegister">Registrar con Google</button>
+            <button type="button" id="facebookRegister">Registrar con Facebook</button>
+            <p><a href="#" id="forgotPassword">¿Olvidaste tu contraseña?</a></p>
+            <p>¿Ya tienes una cuenta? <a href="#" id="loginLink">Iniciar Sesión</a></p>
+        </form>
+    </div>
+    <script src="javaregistroylogin.js"></script>
+</body>
+</html>
